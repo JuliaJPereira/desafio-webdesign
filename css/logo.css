@@ -1,0 +1,9 @@
+.container-logo {
+  display: flex;
+  justify-content: center;
+}
+
+.logo-linx {
+  width: 50%;
+  margin: 0px auto 20px auto;
+}

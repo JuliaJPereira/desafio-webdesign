@@ -1,0 +1,9 @@
+@media screen and (max-width: 600px) {
+  .text-final {
+    font-size: 12px;
+    color: #414141;
+    font-weight: 400;
+    text-align: center;
+    margin: 10px;
+  }
+}
