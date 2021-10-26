@@ -4,61 +4,187 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="index.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/header.css" />
+    <link rel="stylesheet" href="./css/inputs.css" />
+    <link rel="stylesheet" href="./css/footer.css" />
+    <link rel="stylesheet" href="./css/text-final.css" />
+    <link rel="stylesheet" href="./css/mais-dicas.css" />
+    <link rel="stylesheet" href="./css/tarefas.css" />
+    <link rel="stylesheet" href="./css/logo.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <!--<link rel="stylesheet" href="./css/reset.css">-->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;800&display=swap"
+      rel="stylesheet"
+    />
+
     <title>Desafio WebDesign 2021</title>
   </head>
   <body>
     <header>
       <h1>Tarefas a fazer</h1>
-      <p>Adicione e complete tarefas para organizar melhor a sua semana. :)</p>
+      <p class="p-header">
+        Adicione e complete tarefas para organizar melhor a sua semana. :)
+      </p>
     </header>
 
     <section class="inputs">
-      <input placeholder="Busque tarefas" />
-      <button>Buscar</button>
-      <p>Organizar por:</p>
+      <div class="alinhar-centro">
+        <div class="div-busque-tarefas">
+          <input placeholder="Busque tarefas" />
+          <button class="buscar">Buscar</button>
+        </div>
 
-      <select>
-        <option selected>Prazo</option>
-        <option>Data de inclusão</option>
-      </select>
+        <div class="div-organizar-por">
+          <p class="organizar-por">Organizar por:</p>
+          <select>
+            <option selected>Prazo</option>
+            <option>Data de inclusão</option>
+          </select>
+        </div>
+      </div>
     </section>
 
     <section class="tarefas">
       <div class="container-tarefas">
         <div class="tarefa-prazo">
-         <span class="prazo-curto">Prazo curto!</span> 
-        <img src="img.jpg"/>
-        <p>Nome da tarefa</p>
-        <p>
-          Descrição da tarefa, o que deve ser feito e muitas informações que
-          explicam melhor do que se trata.
-        </p>
-        <p>Prazo: 00/00</p>
-        <p>Data de inclusão: há 2 semanas</p>
-        <button>Conluir</button>
-        <button>Alterar prazo</button>
+          <span class="prazo-curto">Prazo curto!</span>
+          <img class="time" src="./assets/time.svg" />
+          <div class="alinhar-itens">
+            <img class="foto" src="./assets/img.png" />
+            <div>
+              <p class="nome-da-tarefa">Nome da tarefa</p>
+              <p class="descricao-tarefa">
+                Descrição da tarefa, o que deve ser feito e muitas informações
+                que explicam melhor do que se trata.
+              </p>
+
+              <div class="prazo-container">
+                <p class="prazo">Prazo:</p>
+                <p class="data">00/00</p>
+              </div>
+
+              <button class="btn-concluir">Concluir</button>
+              <p class="data-inclusao">Data de inclusão: há 2 semanas</p>
+              <img class="time2" src="./assets/time2.svg" />
+              <button class="btn-alterar-prazo">Alterar prazo</button>
+            </div>
+          </div>
         </div>
       </div>
 
-      <div class="btn-ver-mais">
-        <button>VER MAIS +</button>
+      <div class="container-tarefas">
+        <div class="tarefa-prazo">
+          <!--<span class="prazo-curto">Prazo curto!</span>-->
+          <img class="time" src="./assets/time.svg" />
+          <div class="alinhar-itens">
+            <img class="foto" src="./assets/img.png" />
+            <div>
+              <p class="nome-da-tarefa">Nome da tarefa</p>
+              <p class="descricao-tarefa">
+                Descrição da tarefa, o que deve ser feito e muitas informações
+                que explicam melhor do que se trata.
+              </p>
+
+              <div class="prazo-container">
+                <p class="prazo">Prazo:</p>
+                <p class="data">00/00</p>
+              </div>
+
+              <button class="btn-concluir">Concluir</button>
+              <p class="data-inclusao">Data de inclusão: há 2 semanas</p>
+              <img class="time2" src="./assets/time2.svg" />
+              <button class="btn-alterar-prazo">Alterar prazo</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container-tarefas">
+        <div class="tarefa-prazo">
+          <!--<span class="prazo-curto">Prazo curto!</span>-->
+          <img class="time" src="./assets/time.svg" />
+          <div class="alinhar-itens">
+            <img class="foto" src="./assets/img.png" />
+            <div>
+              <p class="nome-da-tarefa">Nome da tarefa</p>
+              <p class="descricao-tarefa">
+                Descrição da tarefa, o que deve ser feito e muitas informações
+                que explicam melhor do que se trata.
+              </p>
+
+              <div class="prazo-container">
+                <p class="prazo">Prazo:</p>
+                <p class="data">00/00</p>
+              </div>
+
+              <button class="btn-concluir">Concluir</button>
+              <p class="data-inclusao">Data de inclusão: há 2 semanas</p>
+              <img class="time2" src="./assets/time2.svg" />
+              <button class="btn-alterar-prazo">Alterar prazo</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container-tarefas">
+        <div class="tarefa-prazo">
+          <!--<span class="prazo-curto">Prazo curto!</span>-->
+          <img class="time" src="./assets/time.svg" />
+          <div class="alinhar-itens">
+            <img class="foto" src="./assets/img.png" />
+            <div>
+              <p class="nome-da-tarefa">Nome da tarefa</p>
+              <p class="descricao-tarefa">
+                Descrição da tarefa, o que deve ser feito e muitas informações
+                que explicam melhor do que se trata.
+              </p>
+
+              <div class="prazo-container">
+                <p class="prazo">Prazo:</p>
+                <p class="data">00/00</p>
+              </div>
+
+              <button class="btn-concluir">Concluir</button>
+              <p class="data-inclusao">Data de inclusão: há 2 semanas</p>
+              <img class="time2" src="./assets/time2.svg" />
+              <button class="btn-alterar-prazo">Alterar prazo</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="div-btn">
+        <button class="ver-mais">VER MAIS +</button>
       </div>
     </section>
 
     <section class="mais-dicas">
-      <p>
+      <p class="receber-dicas">
         Quer receber mais dicas para organizar melhor a sua rotina? Cadastre-se!
       </p>
       <p>Nome:</p>
       <input placeholder="Digite seu nome" />
       <p>E-mail:</p>
       <input placeholder="Digite seu e-mail" />
+
+      <div>
+        <button class="btn-cadastrar">Cadastrar</button>
+      </div>
+    </section>
+
+    <section id="logo">
+      <div class="container-logo">
+        <img class="logo-linx" src="./assets/logo.png" />
+      </div>
     </section>
 
     <section class="text-final">
-      <img />
       <p>
         A Linx é uma empresa brasileira especialista em tecnologia para o
         varejo. Líder no mercado de software de gestão, com 45,6% de market
@@ -80,7 +206,8 @@
 
     <footer>
       <p>
-        Testando suas habilidades em HTML e CSS.</br>Linx Impulse 2021</br> Teste ficcional!
+        Testando suas habilidades em HTML e CSS.<br />Linx Impulse 2021<br />
+        Teste ficcional!
       </p>
     </footer>
   </body>
