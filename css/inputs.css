@@ -4,7 +4,7 @@
     border-radius: 8px;
     padding: 30px 17px;
     justify-content: space-around;
-    margin: 40px -10px;
+    margin: 40px 20px;
   }
 
   input {
@@ -40,6 +40,67 @@
   }
 
   .organizar-por {
+    color: #fff;
+    font-size: 14px;
+    margin-right: 20px;
+  }
+
+  select {
+    display: inline;
+    border: none;
+    background: #fff;
+    border-radius: 8px;
+    width: 190px;
+    height: 40px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #414141;
+    padding-left: 10px;
+  }
+}
+
+@media screen and (min-width: 601px) {
+  .inputs {
+    background-color: #feaf3d;
+    border-radius: 8px;
+    justify-content: space-around;
+    margin: 90px 80px;
+    padding: 30px 0px 5px 0px;
+  }
+
+  .alinhar-centro {
+    display: flex;
+    justify-content: center;
+  }
+
+  input {
+    width: 255px;
+    border: none;
+    background: #fff;
+    border-radius: 8px;
+    padding: 12px 15px;
+    margin-bottom: 20px;
+  }
+
+  .buscar {
+    margin-left: -30px;
+    height: 39px;
+    right: 15px;
+    background-color: #6e4b87;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 12px 15px;
+    font-weight: 700;
+    font-size: 13px;
+  }
+
+  .div-organizar-por {
+    display: flex;
+  }
+
+  .organizar-por {
+    margin-left: 100px;
     color: #fff;
     font-size: 14px;
     margin-right: 20px;

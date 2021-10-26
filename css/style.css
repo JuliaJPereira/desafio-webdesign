@@ -1,4 +1,17 @@
 body {
   font-family: "Open Sans", sans-serif;
-  margin: 20px;
+  margin: 0;
+}
+
+body > * {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+body > footer {
+  margin: 0;
+}
+
+body > header {
+  margin: 0;
 }

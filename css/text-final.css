@@ -1,9 +1,43 @@
 @media screen and (max-width: 600px) {
+  .container-logo {
+    display: flex;
+    justify-content: center;
+  }
+
+  .logo-linx {
+    width: 50%;
+    margin: 0px auto 20px auto;
+  }
+
   .text-final {
     font-size: 12px;
     color: #414141;
     font-weight: 400;
     text-align: center;
     margin: 10px;
+  }
+}
+
+@media screen and (min-width: 601px) {
+  .logo-linx {
+    margin-left: 60px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .alinhar-itens-texto-final {
+    display: flex;
+  }
+
+  #texto p {
+    text-align: initial;
+    margin: auto 40px;
+    font-size: 14px;
+    color: #414141;
+    font-weight: 400;
+  }
+
+  #texto {
+    margin-bottom: 80px;
   }
 }

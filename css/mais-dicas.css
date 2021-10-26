@@ -1,0 +1,55 @@
+@media screen and (max-width: 600px) {
+  .mais-dicas {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 601px) {
+  .mais-dicas {
+    background-color: #e5e5e5;
+    border-radius: 8px;
+    padding: 10px 45px;
+    margin: 50px 150px;
+    align-items: center;
+  }
+
+  .receber-dicas {
+    font-size: 14px;
+    color: #6e4b87;
+    font-weight: 700;
+  }
+
+  p {
+    font-size: 12px;
+    color: #757575;
+  }
+
+  .btn-cadastrar {
+    background-color: #6e4b87;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 8px 20px;
+    font-size: 16px;
+    font-weight: 700;
+    margin-left: 30px;
+  }
+
+  #alinhar-mais-dicas {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+  }
+
+  #div-email {
+    margin-left: 30px;
+  }
+
+  #div-email input {
+    padding-right: 50px;
+  }
+
+  #div-nome input {
+    padding-right: 50px;
+  }
+}
