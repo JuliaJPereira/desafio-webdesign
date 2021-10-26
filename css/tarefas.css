@@ -1,0 +1,127 @@
+@media screen and (max-width: 600px) {
+  .foto {
+    width: 50%;
+    height: 180px;
+    padding-right: 8px;
+  }
+
+  .container-tarefas {
+    border: 1px solid #000;
+    border-radius: 14px;
+    padding: 12px;
+    margin-bottom: 22px;
+  }
+
+  .tarefa-prazo {
+    position: relative;
+  }
+
+  .time {
+    width: 7%;
+    position: absolute;
+    top: -4px;
+    right: -4px;
+  }
+
+  .prazo-curto {
+    position: absolute;
+    top: 10px;
+    left: -22px;
+    background-color: #422755;
+    color: #fff;
+    font-weight: 700;
+    font-size: 12px;
+    padding: 5px 15px 5px 20px;
+    border-radius: 0 8px 8px 0;
+  }
+
+  .nome-da-tarefa {
+    font-size: 14px;
+    color: #422755;
+    font-weight: 700;
+    margin: 0px;
+  }
+
+  .descricao-tarefa {
+    font-size: 11px;
+    color: #000;
+    margin-top: 4px;
+  }
+
+  .prazo {
+    font-size: 12px;
+    color: #000;
+    font-weight: 700;
+    margin: 0px;
+  }
+
+  .data {
+    color: #f04837;
+    font-size: 18px;
+    font-weight: 700;
+    margin: 0px;
+  }
+
+  .data-inclusao {
+    font-size: 9.3px;
+    font-weight: 400;
+    margin-bottom: 0px;
+  }
+
+  .btn-concluir {
+    background: none;
+    border: 1px solid #422755;
+    color: #422755;
+    font-weight: 700;
+    font-size: 14px;
+    margin: 10px auto 5px;
+    cursor: pointer;
+    padding: 5px 40px;
+    border-radius: 8px;
+  }
+
+  .btn-alterar-prazo {
+    background-color: #e61919;
+    color: #fff;
+    font-weight: 700;
+    font-size: 14px;
+    margin: 10px auto 5px;
+    cursor: pointer;
+    padding: 7px 40px;
+    border-radius: 8px;
+    border: none;
+    display: none;
+  }
+
+  .time2 {
+    width: 6%;
+    position: absolute;
+    right: 162px;
+    bottom: 10px;
+    display: none;
+  }
+
+  .div-btn {
+    display: flex;
+    justify-content: center;
+  }
+
+  .ver-mais {
+    background-color: #6e4b87;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 8px 25px 5px 25px;
+    font-size: 16px;
+    font-weight: 700;
+    margin: 40px auto;
+  }
+
+  .alinhar-itens {
+    display: flex;
+  }
+  .prazo-container {
+    display: flex;
+    align-items: baseline;
+  }
+}
