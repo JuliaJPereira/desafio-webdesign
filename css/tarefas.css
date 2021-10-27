@@ -1,3 +1,7 @@
+.btns-hover {
+  display: none;
+}
+
 @media screen and (max-width: 600px) {
   .foto {
     width: 50%;
@@ -137,6 +141,15 @@
     padding: 12px;
     margin: 12px;
     width: 20%;
+    height: 382px;
+  }
+
+  .container-tarefas:hover .btns-hover {
+    display: block;
+  }
+
+  .container-tarefas:hover {
+    height: auto;
   }
 
   .tarefas {
@@ -239,25 +252,27 @@
 
   .btn-concluir {
     background-color: #6e4b87;
-    border: none;
     color: #fff;
     font-weight: 700;
-    font-size: 14px;
-    margin: 10px auto 5px;
+    font-size: 16px;
+    margin: 35px auto 5px;
     cursor: pointer;
-    padding: 5px 40px;
+    padding: 10px 55px;
     border-radius: 8px;
+    border: none;
+    width: 100%;
   }
 
   .btn-alterar-prazo {
     background-color: #f04837;
     color: #fff;
     font-weight: 700;
-    font-size: 14px;
-    margin: 10px auto 5px;
+    font-size: 16px;
+    margin: 10px auto 0px;
     cursor: pointer;
-    padding: 7px 40px;
+    padding: 10px 40px;
     border-radius: 8px;
     border: none;
+    width: 100%;
   }
 }
