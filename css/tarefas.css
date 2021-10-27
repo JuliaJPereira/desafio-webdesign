@@ -101,14 +101,6 @@
     display: none;
   }
 
-  .time2 {
-    width: 6%;
-    position: absolute;
-    right: 162px;
-    bottom: 10px;
-    display: none;
-  }
-
   .div-btn {
     display: flex;
     justify-content: center;
@@ -150,6 +142,7 @@
 
   .container-tarefas:hover {
     height: auto;
+    box-shadow: rgb(139, 139, 139) 1px 1px 10px;
   }
 
   .tarefas {
@@ -243,6 +236,7 @@
     font-size: 16px;
     font-weight: 700;
     margin: 40px auto;
+    cursor: pointer;
   }
 
   .div-btn {
