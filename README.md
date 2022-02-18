@@ -9,10 +9,16 @@ Para acessar o desafio, [cliquei aqui.](https://desafio-webdesigner-linx.netlify
 Abaixo, você poderá ver como ficou o resultado, tanto mobile quanto desktop.
 
 - Mobile
+
   [![](./assets/mobile.gif)]()
 
+</br>
+
 - Desktop
+
   [![](./assets/desktop.gif)]()
+  
+  </br>
 
 ## Tecnologias
 
